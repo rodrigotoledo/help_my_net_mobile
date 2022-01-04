@@ -1,16 +1,19 @@
+import { StatusBar } from 'expo-status-bar'
 import React, { useState } from 'react'
-import { SafeAreaView, StyleSheet, Text, TextInput, View } from 'react-native'
-import { Button } from 'react-native-elements'
+import { StyleSheet, Text, TextInput, View } from 'react-native'
+import { Button, Input, Image } from 'react-native-elements'
 
 import Icon from 'react-native-vector-icons/FontAwesome'
-import HomeMap from '../comonents/HomeMap'
 
 const DashboardScreen = () => {
   const [search, setSearch] = useState('')
   return (
-    <SafeAreaView style={styles.container}>
-      <HomeMap />
-    </SafeAreaView>
+    <View style={styles.container}>
+      <StatusBar style="light" />
+      <View>
+        <Text>Im in chat screen</Text>
+      </View>
+    </View>
   )
 }
 
@@ -18,7 +21,7 @@ export default DashboardScreen
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    padding: 10,
   },
   input: {
     borderWidth: 1,

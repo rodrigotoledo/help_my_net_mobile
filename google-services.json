@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "847723180440",
+    "project_id": "helpmynet-1c036",
+    "storage_bucket": "helpmynet-1c036.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847723180440:android:517752d8ff3cce4611bbed",
+        "android_client_info": {
+          "package_name": "com.helpmynet.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847723180440-a6efk6i1uvkaomo9i0j93ksdgig6j3b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk8Cz7_gGgIwX7HctNy9sDtnlA6sb0PKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847723180440-a6efk6i1uvkaomo9i0j93ksdgig6j3b0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "847723180440-csi2hqgqjvjcddc4o4286942cfq8gp44.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.helpmynet.www"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
