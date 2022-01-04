@@ -18,13 +18,13 @@ const StackNavigator = () => {
   const { user } = useAuth()
   return (
     <Stack.Navigator screenOptions={globalScreenOptions}>
-      <Stack.Screen name="Dashboard" component={DashboardScreen} />
       <Stack.Screen
         name="Login"
         tabBar={() => null}
         screenOptions={{ headerShown: false }}
         component={LoginScreen}
       />
+      <Stack.Screen name="Dashboard" component={DashboardScreen} />
       <Stack.Screen name="Chat" component={ChatScreen} />
     </Stack.Navigator>
   )
